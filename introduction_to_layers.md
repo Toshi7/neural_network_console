@@ -6,10 +6,20 @@ Layer
 ## What is Layer ?
 
 > layers and their properties that can be used with the Neural Network Libraries.  
-> Reference [Layer reference)](https://support.dl.sony.com/391/)
+
+> Reference [Layer reference](https://support.dl.sony.com/391/)
 
 Look at the layer below.
 
 ![](images/01_logistic_regression.sdcproj_layer.png)
 
-
+- **input** 
+  - Dataset
+    - Specifies the name of the variable to input into this Input layer.
+  - size
+    - Specifies the input size.
+For image data, the size is specified in the “the number of colors,height,width” format.
+      - For example, for a RGB color image whose width is 32 and height is 24, specify “3,24,32”. For a monochrome image whose width is 64 and height is 48, specify “1,48,64”.
+  
+- **Affine**
+  - 
