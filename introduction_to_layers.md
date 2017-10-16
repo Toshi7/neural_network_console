@@ -26,3 +26,11 @@ For image data, the size is specified in the “the number of colors,height,widt
 o = Wi+b  
 (where **i** is the input, o is the output, **W** is the weight, and **b** is the bias term.)  
 [affine transformation](https://en.wikipedia.org/wiki/Affine_transformation#Representation)
+
+
+
+- **Bias**
+  - The main funtion of Bias it to provide every node with a trainable constant value(in addition to the normal inputs that the node receives). See this [link](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks) to learn more about the role of bias in a neuron.  
+Reference [A Quick Introduction to Neural Networks](https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/)
+  
+  
